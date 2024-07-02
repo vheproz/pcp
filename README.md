@@ -1,3 +1,7 @@
+ ll /etc/
+  11 cp /etc/asound.conf /etc/asound.back
+  12 vi /etc/asound.conf
+
 # pcp
 Customization Files and Settings for PiCorePlayer
 
