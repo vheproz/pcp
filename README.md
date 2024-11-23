@@ -28,6 +28,9 @@ Für Test geändert zu
 * ```ll /etc/```
 * ```cp /etc/asound.conf /etc/asound.back```
 * ```vi /etc/asound.conf```
+## Multiroom
+* Copy start_mm_player.sh and make it exceutable ```chmod +x start_mm_player.sh```
+* Go to Tweak/User commands and set up new user command ```~/start_mm_player.sh```
 ## Änderungen
 * ```sudo alsactl store```
 * ```sudo filetool.sh -b```
