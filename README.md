@@ -33,4 +33,4 @@ Für Test geändert zu
 * Go to Tweak/User commands and set up new user command ```~/start_mm_player.sh```
 ## Änderungen
 * ```sudo alsactl store```
-* ```sudo filetool.sh -b```
+* ```sudo filetool.sh -b``` oder ```pcp bu```
