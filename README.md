@@ -23,7 +23,11 @@ Für Test geändert zu
 ```/mnt/mmcblk0p2/tce/squeezelite-armv6hf -n "piCorePlayer2" -o stereosurround -a 80:::0: -m ab:cd:ef:12:34:02 -C 1 -G 8:L -z```
 ### ab piCorePlayer 3.11
 ```/usr/local/bin/squeezelite -n "piCorePlayer2" -o stereosurround -a 80:::0: -m ab:cd:ef:12:34:02 -C 1 -G 8:L -z```
-# Asound
+# Pcp
+## Asound
 * ```ll /etc/```
 * ```cp /etc/asound.conf /etc/asound.back```
 * ```vi /etc/asound.conf```
+## Änderungen
+* ```sudo alsactl store```
+* ```sudo filetool.sh -b```
